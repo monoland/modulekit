@@ -23,7 +23,7 @@ class User extends Authenticatable
      * Find the user instance for the given username.
      *
      * @param  string  $username
-     * @return \App\User
+     * @return \App\Models\User
      */
     public function findForPassport($username)
     {
